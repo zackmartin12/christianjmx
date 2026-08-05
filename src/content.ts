@@ -28,12 +28,9 @@ export const photos: GalleryItem[] = [
 ]
 
 export const videos: VideoItem[] = [
-  { id: 1, src: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=500&fit=crop&auto=format', title: 'Quiet Season', caption: 'Short Documentary · 2024', youtubeId: 'dQw4w9WgXcQ' },
-  { id: 2, src: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=800&h=500&fit=crop&auto=format', title: 'Borderlands', caption: 'Narrative Short · 2023', youtubeId: 'dQw4w9WgXcQ' },
-  { id: 3, src: 'https://images.unsplash.com/photo-1536240478700-b869ad10e2b0?w=800&h=500&fit=crop&auto=format', title: 'Neon & Concrete', caption: 'Music Video · 2024', youtubeId: 'dQw4w9WgXcQ' },
-  { id: 4, src: 'https://images.unsplash.com/photo-1579201517409-c1a46a638cce?w=800&h=500&fit=crop&auto=format', title: 'The Tide Remembers', caption: 'Environmental Documentary · 2023', youtubeId: 'dQw4w9WgXcQ' },
-  { id: 5, src: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=500&fit=crop&auto=format', title: 'Aperture', caption: 'Experimental · 2024', youtubeId: 'dQw4w9WgXcQ' },
-  { id: 6, src: 'https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=500&fit=crop&auto=format', title: 'Interior Light', caption: 'Portrait Series · 2023', youtubeId: 'dQw4w9WgXcQ' },
+  { id: 1, src: 'https://i.ytimg.com/vi/wnNFT0Tn5GA/hqdefault.jpg', title: 'SURVIVOR UNCW ALL STARS: OFFICIAL TRAILER', caption: 'Survivor UNCW 2026', youtubeId: 'wnNFT0Tn5GA' },
+  { id: 2, src: 'https://i.ytimg.com/vi/525qkT2wGKI/hqdefault.jpg', title: 'SEASON 4 OFFICIAL TRAILER', caption: 'Survivor UNCW 2025', youtubeId: '525qkT2wGKI' },
+  { id: 3, src: 'https://i.ytimg.com/vi/sKdZ8zVxfLg/hqdefault.jpg', title: 'SEASON 3 OFFICIAL TRAILER', caption: 'Survivor UNCW 2025', youtubeId: 'sKdZ8zVxfLg' },
 ]
 
 export const education: Credit[] = [
