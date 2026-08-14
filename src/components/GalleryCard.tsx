@@ -26,7 +26,7 @@ export function GalleryCard({ item, onClick, video = false }: GalleryCardProps) 
       src={item.thumbnailSrc}
     />
     {video && <div className="absolute top-1/2 left-1/2 z-1 flex size-11 -translate-1/2 items-center justify-center border border-white/30 bg-transparent backdrop-blur-[4px] transition-transform duration-300 group-hover:scale-110">
-      <Icon className="translate-x-px text-[.8rem] text-white">▶</Icon>
+      <Icon className="translate-x-px text-[.8rem] text-white" name="play_arrow" />
     </div>}
     <figcaption className={`absolute right-0 bottom-0 left-0 z-2 translate-y-1 bg-linear-to-t from-[rgb(16_18_20_/_93%)] to-transparent px-3.5 pt-12 pb-3.5 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 group-focus-visible:translate-y-0 group-focus-visible:opacity-100`}>
       <p className="m-0 text-sm">{item.title}</p>

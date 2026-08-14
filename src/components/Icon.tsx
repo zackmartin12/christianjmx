@@ -1,10 +1,10 @@
-import type { ReactNode } from 'react'
+type IconName = 'call' | 'chevron_left' | 'chevron_right' | 'close' | 'download' | 'location_on' | 'mail' | 'menu' | 'play_arrow'
 
 type IconProps = {
-  children: ReactNode
+  name: IconName
   className?: string
 }
 
-export function Icon({ children, className = '' }: IconProps) {
-  return <span aria-hidden="true" className={`inline-block min-w-4 text-center font-[Arial,sans-serif] ${className}`}>{children}</span>
+export function Icon({ name, className = '' }: IconProps) {
+  return <span aria-hidden="true" className={`material-symbols inline-block text-center ${className}`}>{name}</span>
 }
